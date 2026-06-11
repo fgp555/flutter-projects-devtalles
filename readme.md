@@ -1,8 +1,3 @@
-# index
-- 04 Flutter - Primeros pasos
-- 05 Yes No - Maybe App ui/ux
-- 06 context / gestor de estado
-
 snippets
 
 ```sh
@@ -19,6 +14,7 @@ flutter create . --org com.frankgp --project-name dev --empty --platforms androi
 
 flutter devices
 flutter run
+flutter run --release
 
 code android/app/src/main/AndroidManifest.xml
 <uses-permission android:name="android.permission.INTERNET"/>
@@ -73,14 +69,15 @@ flutter pub add http
 flutter pub add dio
 flutter pub add intl # format number
 flutter pub add animate_do # de fernando herrera
-flutter pub add video_player@2.9.2 # de fernando herrera
+flutter pub add video_player@2.9.2
 
 
 
 ```
 
 create type from json
-https://app.quicktype.io/ 
+https://app.quicktype.io/
 
-# notes 
--  curso intermedio de Flutter para crear widget en pub
+# notes
+
+- curso intermedio de Flutter para crear widget en pub
