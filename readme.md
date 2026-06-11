@@ -12,9 +12,9 @@ https://i.pravatar.cc/300
 rm -fr * && rm -fr .*
 flutter create . --org com.frankgp --project-name dev --empty --platforms android
 
-flutter devices
 flutter run
 flutter run --release
+flutter devices
 
 code android/app/src/main/AndroidManifest.xml
 <uses-permission android:name="android.permission.INTERNET"/>
@@ -70,6 +70,7 @@ flutter pub add dio
 flutter pub add intl # format number
 flutter pub add animate_do # de fernando herrera
 flutter pub add video_player@2.9.2
+flutter pub add go_router
 
 
 
