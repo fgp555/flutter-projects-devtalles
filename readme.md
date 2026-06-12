@@ -1,3 +1,19 @@
+# pub.dev
+
+```sh
+# https://pub.dev/packages/provider
+# https://pub.dev/packages/video_player
+
+flutter pub add provider
+flutter pub add http
+flutter pub add dio
+flutter pub add intl # format number
+flutter pub add animate_do # de fernando herrera
+flutter pub add video_player@2.9.2
+flutter pub add go_router
+
+```
+
 snippets
 
 ```sh
@@ -55,24 +71,6 @@ kotlin.incremental.useClasspathSnapshot=false
 PUB_CACHE=E:\builds\pub-cache
 echo $PUB_CACHE
 flutter pub cache repair
-
-```
-
-# pub.dev
-
-```sh
-# https://pub.dev/packages/provider
-# https://pub.dev/packages/video_player
-
-flutter pub add provider
-flutter pub add http
-flutter pub add dio
-flutter pub add intl # format number
-flutter pub add animate_do # de fernando herrera
-flutter pub add video_player@2.9.2
-flutter pub add go_router
-
-
 
 ```
 

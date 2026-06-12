@@ -6,3 +6,4 @@
 - 07 tiktok
 - 08 intro a la clean architec
 - 09 widgets / navigation / routes
+- 10 widgets / navigation / routes
