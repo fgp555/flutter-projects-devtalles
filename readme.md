@@ -11,6 +11,7 @@ flutter pub add intl # format number
 flutter pub add animate_do # de fernando herrera
 flutter pub add video_player@2.9.2
 flutter pub add go_router
+flutter pub add flutter_riverpod
 
 ```
 
@@ -47,9 +48,7 @@ adb uninstall com.frankgp.dev
 adb shell am start -a android.intent.action.VIEW "market://details?id=com.frankgp.dev"
 adb shell monkey -p com.frankgp.dev -c android.intent.category.LAUNCHER 1
 
-adb uninstall com.frankgp.widgets
 adb shell am start -a android.intent.action.VIEW "market://details?id=com.frankgp.widgets"
-adb shell monkey -p com.frankgp.widgets -c android.intent.category.LAUNCHER 1
 
 adb connect 192.168.18.23:5555    # Connect to the Android device wirelessly
 adb disconnect 192.168.18.23:5555
